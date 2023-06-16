@@ -1,0 +1,16 @@
+package com.greatlearning.department.subclass;
+
+import com.greatlearning.superdepartment.SuperDepartment;
+
+public class AdminDepartment extends SuperDepartment {
+	
+	   public String departmentName () {
+		   return "Admin Department";
+	   }	   
+		public String getTodayWork () {
+			return "Complete your documents Submission";
+	   }
+	   public String getWorkDeadline () {
+		   return "Complete by EOD";
+	   }
+	}
